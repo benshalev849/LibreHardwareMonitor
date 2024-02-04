@@ -35,6 +35,7 @@ public enum Model
     X570_Taichi,
     X570_Phantom_Gaming_ITX,
     Z790_Taichi,
+    B650m_Pro_RS,
 
     // ASUS
     CROSSHAIR_III_FORMULA,

@@ -359,7 +359,7 @@ internal sealed class SuperIOHardware : Hardware
             case Chip.NCT6687D:
                 switch (manufacturer)
                 {
-                    case Manufacturer.ASRock when model == Model.Z790_Taichi:
+                    case Manufacturer.ASRock when model == Model.B650m_Pro_RS:
                         t.Add(new Temperature("CPU", 0));
                         t.Add(new Temperature("Motherboard", 1));
                         t.Add(new Temperature("MOS", 2));
@@ -2488,7 +2488,7 @@ internal sealed class SuperIOHardware : Hardware
 
                         break;
 
-                    case Model.X570_Taichi:
+                    case Model.B650m_Pro_RS:
                         v.Add(new Voltage("Vcore", 0, 10, 10));
                         v.Add(new Voltage("Voltage #2", 1, true));
                         v.Add(new Voltage("AVCC", 2, 34, 34));
